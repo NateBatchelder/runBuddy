@@ -40,16 +40,33 @@
         <h3>Get Started Today</h3>
         <p>Fil out this form and one of our trainers will schedule a consult</p>
     <!-- Add form element -->
-    <form>
-        <lable for "name">Enter full name:</lable>
-        <input type="text" placeholder="Your Name" name="name" id="name" />
-        <lable for "email">Enter email address:</lable>
-        <input type="text" placeholder="Email Address" name="email" id="email" />
-        <lable for "telephone">Enter a telephone number:</lable>
-        <input type="text" placeholder="Phone Number" name="telephone" id="telephone" />
-    </form>
+        <form>
+            <lable for "name">Enter full name:</lable>
+            <input type="text" placeholder="Your Name" name="name" id="name" />
+            <lable for "email">Enter email address:</lable>
+            <input type="email" placeholder="Email Address" name="email" id="email" />
+            <lable for "telephone">Enter a telephone number:</lable>
+            <input type="tel" placeholder="Phone Number" name="phone" id="phone" />
+            <p>
+                Have you worked ou twith a trainer before?
+                <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                <lable for="trainer-yes">Yes</lable>
+                <input type="radio" name="trainer-confirm" id="trainer-no" />
+                <lable for="trainer-no">No</lable>
+            </p>
+            <!-- Of age decloration -->
+            <p>
+                <label for="checkbox" >
+                    I acknowledge that I am at least 18 years of age.
+                    <input type="checkbox" name="age-confirm" id="checkbox" />
+            </p>
+            <button type ="submit">
+                Get Running!
+            </button>
+        </form>
     </div>
 </section>
+<!-- end hero -->
 
 <!-- "what we do" section -->
 <section>
