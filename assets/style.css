@@ -67,17 +67,14 @@ footer a {
     color: #024e76;
 }
 
-section {
-    padding: 60px;
-    background-image: url("../assets/images/hero-bg.jpeg");
-}
-
 /* Hero Style */
 .hero {
+    padding: 60px;
     background-image: url(../assets/images/hero-bg.jpeg);
     height: 600px;
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 
 .hero-form {
@@ -85,5 +82,39 @@ section {
     background-color: #fce138;
     padding: 20px;
     width: 500px;
+    border: solid 3px #024e76;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+}
+
+.hero-form h3 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+
+.hero-form label {
+    margin: 0 5px;
+}
+
+.form-input {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.hero-form button {
+    background-color: #024e76;
+    color: #fce138;
+    padding: 10px 20px;
+    font-size: 16px;
 }
 /* Hero Style End */
