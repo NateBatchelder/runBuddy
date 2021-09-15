@@ -127,11 +127,6 @@ footer a {
 .steps h2 {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    border-color: #fce138;
-    display: inline-block;
 }
 
 .intro p {
@@ -144,7 +139,7 @@ footer a {
 
 .steps {
    text-align: center; 
-   background-position: #fce138;
+   background: #fce138;
 }
 
 .section-title {
@@ -181,6 +176,10 @@ footer a {
 .steps p {
     color: #39a6b2;
     font-size: 23px;
+}
+
+.steps span {
+    font-size: 38px;
 }
 
 .trainer {
