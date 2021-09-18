@@ -146,8 +146,9 @@ footer a {
     font-size: 55px;
     color: #024e76;
     margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
+    padding: 20px 100px 20px 100px;
     border-bottom: 3px solid;
+    display: inline-block;
 }
 
 .primary-border {
@@ -182,6 +183,10 @@ footer a {
     font-size: 38px;
 }
 
+.trainers {
+    text-align: center;
+}
+
 .trainer {
     width: 900px;
     margin: 0 auto 30px auto;
@@ -195,7 +200,7 @@ footer a {
     float: left;
 }
 
-.trainer-bio {
+.trainer-bio { 
     padding: 35px;
     float: left;
     width: 65%;
