@@ -98,6 +98,8 @@ footer a {
     position: absolute;
     bottom: 120px;
     right: 140px;
+    width: 40%;
+    margin: 3.5%;
 }
 
 .hero-form h3 {
@@ -111,6 +113,21 @@ footer a {
 
 .hero-form label {
     margin: 0 5px;
+}
+
+.hero-cta {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.hero-cta h2 {
+    font-style: italic;
+    font-size: 55px;
+    color: #fce138;
 }
 
 .form-input {
