@@ -13,6 +13,9 @@ body {
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 header h1 {
@@ -22,7 +25,8 @@ header h1 {
     /* delete the following color */
     /* background-color: #39a6b2; */
     margin: 0;
-    display: inline;
+    /* removed for flexbox */
+    /* display: inline; */
 }
 
 /* color of a elements */
@@ -32,7 +36,8 @@ header a {
 }
 
 header nav {
-    float: right;
+    /* removed for flexbox */
+    /* float: right; */
     margin: 7px 0;
 }
 
@@ -71,7 +76,7 @@ footer a {
 
 /* Hero Style */
 .hero {
-    background-image: url(../images/hero-bg.jpeg);
+    background-image: url(../images/flipped-hero-image.jpeg);
     height: 600px;
     background-size: cover;
     background-position: center;
